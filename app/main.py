@@ -5,6 +5,7 @@ import uvicorn
 app = FastAPI(
     title="FastAPI AWS Deployment",
     version="1.0.0",
+    root_path="/currency",
     docs_url="/docs"
 )
 
